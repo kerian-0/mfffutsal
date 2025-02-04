@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
               BottomNavigationBarItem(
                   icon: Icon(Icons.sports_bar_outlined), label: "Match"),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.newspaper), label: "News"),
+                  icon: Icon(Icons.newspaper), label: "Table"),
               // BottomNavigationBarItem(
               //     icon: Icon(Icons.table_chart_sharp), label: "Table"),
               BottomNavigationBarItem(
