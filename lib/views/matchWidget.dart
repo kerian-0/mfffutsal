@@ -39,7 +39,7 @@ class MatchWidget extends StatelessWidget {
                       teamName1,
                       style: TextStyle(fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center,
-                      overflow: TextOverflow.ellipsis, // Prevent overflow
+                      overflow: TextOverflow.fade, // Prevent overflow
                     ),
                   ),
                 ),
@@ -120,7 +120,7 @@ class MatchWidget extends StatelessWidget {
                       teamName2,
                       style: TextStyle(fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center,
-                      overflow: TextOverflow.ellipsis,
+                      overflow: TextOverflow.fade,
                     ),
                   ),
                 ),
