@@ -7,6 +7,6 @@ List<Map<String, dynamic>> team = [
   {"name": "SGF", "img": "images/sgf.png"},
   {"name": "YCDC MARGA", "img": "images/marga.jpg"},
   {"name": "Generations", "img": "images/gz.jpg"},
-  {"name": "M2K Fc", "img": "images/m2k.png"},
-  {"name": "Futsal Chitthu", "img": "images/fct.jpg"},
+  {"name": "M2K ", "img": "images/m2k.png"},
+  {"name": "FCT", "img": "images/fct.jpg"},
 ];

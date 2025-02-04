@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Colors.cyan,
             items: [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.sports_bar_outlined), label: "Match"),
+                  icon: Icon(Icons.sports_bar_outlined), label: "Matchs"),
               BottomNavigationBarItem(
                   icon: Icon(Icons.newspaper), label: "Table"),
               // BottomNavigationBarItem(
