@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../constant/listt.dart';
 import 'matchWidget.dart';
 
-class Match10 extends StatelessWidget {
-  const Match10({super.key});
+class Match17 extends StatelessWidget {
+  const Match17({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,40 +13,35 @@ class Match10 extends StatelessWidget {
         child: Column(
           children: [
             MatchWidget(
-              matchId:"week11-1" ,
-              //  text:"text" ,
-              teamName1: team[0]["name"],
-              teamImg1: team[0]["img"],
-              teamName2: team[1]["name"],
-              teamImg2: team[1]["img"],
+              matchId: "week18-1",
+              teamName1: team[4]["name"],
+              teamImg1: team[4]["img"],
+              teamName2: team[5]["name"],
+              teamImg2: team[5]["img"],
             ),
             MatchWidget(
-              matchId:"week11-2" ,
-              //  text:"text" ,
+              matchId: "week18-2",
               teamName1: team[2]["name"],
               teamImg1: team[2]["img"],
               teamName2: team[3]["name"],
               teamImg2: team[3]["img"],
             ),
             MatchWidget(
-              matchId:"week11-3" ,
-              //  text:"text" ,
+              matchId: "week18-3",
               teamName1: team[4]["name"],
               teamImg1: team[4]["img"],
               teamName2: team[5]["name"],
               teamImg2: team[5]["img"],
             ),
             MatchWidget(
-              matchId:"week11-4" ,
-              //  text:"text" ,
-              teamName1: team[4]["name"],
-              teamImg1: team[4]["img"],
-              teamName2: team[5]["name"],
-              teamImg2: team[5]["img"],
+              matchId: "week18-4",
+              teamName1: team[7]["name"],
+              teamImg1: team[7]["img"],
+              teamName2: team[7]["name"],
+              teamImg2: team[7]["img"],
             ),
             MatchWidget(
-              matchId:"week11-4" ,
-              //  text:"text" ,
+              matchId: "week18-5",
               teamName1: team[8]["name"],
               teamImg1: team[8]["img"],
               teamName2: team[9]["name"],

@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:mff_futsal_v0/constant/viewList.dart';
 
-class Containerbox extends StatefulWidget {
+class BoxContain extends StatefulWidget {
   final String datte;
   final int initialIndex;
 
-  const Containerbox(
+  const BoxContain(
       {super.key, required this.datte, required this.initialIndex});
 
   @override
-  _ContainerboxState createState() => _ContainerboxState();
+  _BoxContainState createState() => _BoxContainState();
 }
 
-class _ContainerboxState extends State<Containerbox> {
+class _BoxContainState extends State<BoxContain> {
   late int index;
 
   @override

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577519623729",
+    "project_id": "mff-futsal",
+    "storage_bucket": "mff-futsal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577519623729:android:c17aad4a94f963aa727f10",
+        "android_client_info": {
+          "package_name": "com.example.mff_futsal_v0"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS5y_-IqMn_XHNM6h56x_O6DFY7EMzXXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
