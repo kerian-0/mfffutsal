@@ -1,6 +1,6 @@
 # mff_futsal_v0
 
-A new Flutter project.
+Thanks you so much for your support.
 
 ## Getting Started
 
