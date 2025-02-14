@@ -2,9 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mff_futsal_v0/views/apppBar.dart';
 import 'package:mff_futsal_v0/views/page.dart';
-
+import 'package:mff_futsal_v0/views/splash_screen.dart';
 import 'firebase_options.dart';
-
 import 'views/neww.dart';
 import 'views/scorer.dart';
 
@@ -21,8 +20,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
   }
 }
 
@@ -52,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 3, 158, 167),
+          backgroundColor: const Color.fromARGB(255, 206, 32, 44),
           title: AnimateText(),
         ),
         // body: Column(
@@ -71,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
         bottomNavigationBar: BottomNavigationBar(
             currentIndex: _selectedIndex,
             onTap: _onItemTapped,
-            backgroundColor: Colors.cyan,
+            backgroundColor: Colors.red,
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.sports_bar_outlined), label: "Matchs"),

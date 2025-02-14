@@ -24,7 +24,7 @@ class MatchWidget extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 8),
       child: Center(
         child: Card(
-          color: Colors.cyan,
+          color: Colors.red,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Row(
@@ -39,7 +39,7 @@ class MatchWidget extends StatelessWidget {
                       teamName1,
                       style: TextStyle(fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center,
-                      overflow: TextOverflow.fade, // Prevent overflow
+                      overflow: TextOverflow.ellipsis, // Prevent overflow
                     ),
                   ),
                 ),
@@ -77,7 +77,7 @@ class MatchWidget extends StatelessWidget {
                       int team2Score = data['team2Score'] ?? 0;
 
                       return Column(
-                        mainAxisSize: MainAxisSize.min,
+                        // mainAxisSize: MainAxisSize.min,
                         children: [
                           Text(
                             data["text"] == "VS"
@@ -120,7 +120,7 @@ class MatchWidget extends StatelessWidget {
                       teamName2,
                       style: TextStyle(fontWeight: FontWeight.w400),
                       textAlign: TextAlign.center,
-                      overflow: TextOverflow.fade,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
                 ),
