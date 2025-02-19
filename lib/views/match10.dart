@@ -25,8 +25,8 @@ class Match10 extends StatelessWidget {
               //  text:"text" ,
               teamName1: team[6]["name"],
               teamImg1: team[6]["img"],
-              teamName2: team[5]["name"],
-              teamImg2: team[5]["img"],
+              teamName2: team[8]["name"],
+              teamImg2: team[8]["img"],
             ),
             MatchWidget(
               matchId: "week11-3",
