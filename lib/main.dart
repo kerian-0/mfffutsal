@@ -50,9 +50,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 206, 32, 44),
-          title: AnimateText(),
-        ),
+            backgroundColor: const Color.fromARGB(255, 206, 32, 44),
+            title: AnimateText()),
         // body: Column(
         //   children: [
         //     Containerbox(
